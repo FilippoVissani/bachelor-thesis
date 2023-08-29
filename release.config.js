@@ -8,8 +8,7 @@ config.plugins.push(
     ["@semantic-release/github", {
         "assets": [
             // Change this path if your pdf has another name.
-            { "path": "distributed-systems/thesis-main.pdf" },
-            { "path": "smart-city/report.pdf" },
+            { "path": "main.pdf" }
         ]
     }],
     ["@semantic-release/git", {
